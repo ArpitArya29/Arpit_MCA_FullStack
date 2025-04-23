@@ -1,0 +1,18 @@
+.head{
+    align-items: center;
+}
+
+h1{
+    align-items: center;
+}
+body{
+    color: blue;
+}
+#ResturantName{
+    justify-content: center;
+    color: aqua;
+}
+
+#navigation{
+    justify-content: left;
+}

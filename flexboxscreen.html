@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            font-size: 25px;
+            padding: 20px;
+            display: flex;
+            height: 50px;
+            background-color: #000;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header div{
+            color: white;
+        }
+
+        header nav{
+            /* gap: 200px; */
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            justify-content: end;
+            /* align-items: flex-end;
+            justify-content: flex-end; */
+        }
+
+        header nav a{
+            font-size: 20px;
+            margin: 20px;
+            color: rgb(41, 35, 114);
+        }
+
+
+        main{
+            display: flex;
+            margin: 20px;
+        }
+        main div:first-child{
+            flex: 1;
+        }
+        main div{
+            flex: 2;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .heading{
+            font-size: 30px;
+            margin: 0px;
+            font-weight: bold;
+
+        }
+        #sidebar{
+            background-color: #dedcdc;
+            padding: 20px;
+        }
+
+        #main_content{
+            background-color: #b0aeae;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            My Flexbox Page
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <main>
+        <div id="sidebar">
+            <p class="heading">Sidebar</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+
+        <div id="main_content">
+            <p class="heading">Main Content</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos cumque nobis nulla, vel molestiae perspiciatis? Magnam harum odio nemo quis odit? Architecto neque amet enim.</p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

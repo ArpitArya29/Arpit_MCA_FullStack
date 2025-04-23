@@ -1,0 +1,24 @@
+.Container{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    "header header header"
+    "navbar main adv"
+    "footer footer footer";
+
+}
+#nav{
+    grid-area: navbar;
+}
+#main{
+    grid-area: main;
+}
+#adv{
+    grid-area: adv;
+}
+#header{
+    grid-area: header;
+}
+#footer{
+    grid-area: footer;
+}
